@@ -10,10 +10,24 @@
 		1615E8292A66BA39008C2BE1 /* SirenClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8282A66BA39008C2BE1 /* SirenClientApp.swift */; };
 		1615E82B2A66BA39008C2BE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E82A2A66BA39008C2BE1 /* ContentView.swift */; };
 		1615E82D2A66BA3A008C2BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1615E82C2A66BA3A008C2BE1 /* Assets.xcassets */; };
-		1615E8302A66BA3A008C2BE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1615E82F2A66BA3A008C2BE1 /* Preview Assets.xcassets */; };
-		1615E83A2A66BA3A008C2BE1 /* SirenClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8392A66BA3A008C2BE1 /* SirenClientTests.swift */; };
-		1615E8442A66BA3A008C2BE1 /* SirenClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8432A66BA3A008C2BE1 /* SirenClientUITests.swift */; };
-		1615E8462A66BA3A008C2BE1 /* SirenClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8452A66BA3A008C2BE1 /* SirenClientUITestsLaunchTests.swift */; };
+		1615E85B2A67488F008C2BE1 /* SearchMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E85A2A67488F008C2BE1 /* SearchMatch.swift */; };
+		1615E8612A674B39008C2BE1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8602A674B39008C2BE1 /* HomeView.swift */; };
+		1615E8632A674BAF008C2BE1 /* SearchMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8622A674BAF008C2BE1 /* SearchMatchView.swift */; };
+		1615E8652A67EC59008C2BE1 /* AudioCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8642A67EC59008C2BE1 /* AudioCaptureViewModel.swift */; };
+		1615E8692A67F3AC008C2BE1 /* SearchMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8682A67F3AC008C2BE1 /* SearchMatchViewModel.swift */; };
+		1615E86D2A687CAA008C2BE1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E86C2A687CAA008C2BE1 /* NetworkManager.swift */; };
+		1615E8702A68A228008C2BE1 /* LoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E86F2A68A228008C2BE1 /* LoadingAnimationView.swift */; };
+		1615E8722A68A6DC008C2BE1 /* SirenCoreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8712A68A6DC008C2BE1 /* SirenCoreResponse.swift */; };
+		1615E8742A68B212008C2BE1 /* JsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8732A68B211008C2BE1 /* JsonDecoder.swift */; };
+		1615E87A2A68D09C008C2BE1 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8792A68D09C008C2BE1 /* FailureView.swift */; };
+		1615E87C2A68D0B0008C2BE1 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E87B2A68D0B0008C2BE1 /* MatchView.swift */; };
+		1615E8812A69043D008C2BE1 /* SharedEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1615E8802A69043D008C2BE1 /* SharedEngine.swift */; };
+		168706732A6AF38F00E39E71 /* siren_package in Frameworks */ = {isa = PBXBuildFile; productRef = 168706722A6AF38F00E39E71 /* siren_package */; };
+		16D9E2072A6B2F5B00F35772 /* RemoteArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9E2062A6B2F5B00F35772 /* RemoteArtwork.swift */; };
+		16D9E20C2A6B5F8900F35772 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9E20B2A6B5F8900F35772 /* ProgressBarView.swift */; };
+		16D9E20E2A6D5E1700F35772 /* SError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9E20D2A6D5E1700F35772 /* SError.swift */; };
+		16D9E2102A6DCA0900F35772 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 16D9E20F2A6DCA0900F35772 /* Preview Content */; };
+		16D9E2132A6DDA7F00F35772 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9E2122A6DDA7F00F35772 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +52,25 @@
 		1615E8282A66BA39008C2BE1 /* SirenClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenClientApp.swift; sourceTree = "<group>"; };
 		1615E82A2A66BA39008C2BE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1615E82C2A66BA3A008C2BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1615E82F2A66BA3A008C2BE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1615E8352A66BA3A008C2BE1 /* SirenClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirenClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1615E8392A66BA3A008C2BE1 /* SirenClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenClientTests.swift; sourceTree = "<group>"; };
 		1615E83F2A66BA3A008C2BE1 /* SirenClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirenClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1615E8432A66BA3A008C2BE1 /* SirenClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenClientUITests.swift; sourceTree = "<group>"; };
-		1615E8452A66BA3A008C2BE1 /* SirenClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1615E85A2A67488F008C2BE1 /* SearchMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatch.swift; sourceTree = "<group>"; };
+		1615E8602A674B39008C2BE1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1615E8622A674BAF008C2BE1 /* SearchMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatchView.swift; sourceTree = "<group>"; };
+		1615E8642A67EC59008C2BE1 /* AudioCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureViewModel.swift; sourceTree = "<group>"; };
+		1615E8682A67F3AC008C2BE1 /* SearchMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMatchViewModel.swift; sourceTree = "<group>"; };
+		1615E86C2A687CAA008C2BE1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1615E86F2A68A228008C2BE1 /* LoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationView.swift; sourceTree = "<group>"; };
+		1615E8712A68A6DC008C2BE1 /* SirenCoreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirenCoreResponse.swift; sourceTree = "<group>"; };
+		1615E8732A68B211008C2BE1 /* JsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecoder.swift; sourceTree = "<group>"; };
+		1615E8792A68D09C008C2BE1 /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
+		1615E87B2A68D0B0008C2BE1 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		1615E8802A69043D008C2BE1 /* SharedEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedEngine.swift; sourceTree = "<group>"; };
+		16D9E2062A6B2F5B00F35772 /* RemoteArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteArtwork.swift; sourceTree = "<group>"; };
+		16D9E20B2A6B5F8900F35772 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		16D9E20D2A6D5E1700F35772 /* SError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SError.swift; sourceTree = "<group>"; };
+		16D9E20F2A6DCA0900F35772 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		16D9E2122A6DDA7F00F35772 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168706732A6AF38F00E39E71 /* siren_package in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				1615E8272A66BA39008C2BE1 /* SirenClient */,
-				1615E8382A66BA3A008C2BE1 /* SirenClientTests */,
-				1615E8422A66BA3A008C2BE1 /* SirenClientUITests */,
 				1615E8262A66BA39008C2BE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +120,100 @@
 		1615E8272A66BA39008C2BE1 /* SirenClient */ = {
 			isa = PBXGroup;
 			children = (
+				1615E8592A66C133008C2BE1 /* Models */,
+				1615E8582A66C11E008C2BE1 /* Utilities */,
+				1615E8572A66C116008C2BE1 /* Views */,
 				1615E8282A66BA39008C2BE1 /* SirenClientApp.swift */,
-				1615E82A2A66BA39008C2BE1 /* ContentView.swift */,
+				16D9E20F2A6DCA0900F35772 /* Preview Content */,
 				1615E82C2A66BA3A008C2BE1 /* Assets.xcassets */,
-				1615E82E2A66BA3A008C2BE1 /* Preview Content */,
 			);
 			path = SirenClient;
 			sourceTree = "<group>";
 		};
-		1615E82E2A66BA3A008C2BE1 /* Preview Content */ = {
+		1615E8572A66C116008C2BE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1615E82F2A66BA3A008C2BE1 /* Preview Assets.xcassets */,
+				16D9E2082A6B5F3D00F35772 /* ProgressBar */,
+				1615E87E2A68D0D5008C2BE1 /* Match */,
+				1615E87D2A68D0BF008C2BE1 /* Failure */,
+				1615E86E2A687D01008C2BE1 /* Home */,
+				1615E86B2A67F3D6008C2BE1 /* AudioCapture */,
+				1615E86A2A67F3C2008C2BE1 /* SearchMatch */,
+				1615E82A2A66BA39008C2BE1 /* ContentView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		1615E8382A66BA3A008C2BE1 /* SirenClientTests */ = {
+		1615E8582A66C11E008C2BE1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				1615E8392A66BA3A008C2BE1 /* SirenClientTests.swift */,
+				1615E86C2A687CAA008C2BE1 /* NetworkManager.swift */,
+				1615E8732A68B211008C2BE1 /* JsonDecoder.swift */,
+				1615E8802A69043D008C2BE1 /* SharedEngine.swift */,
+				16D9E2062A6B2F5B00F35772 /* RemoteArtwork.swift */,
+				16D9E20D2A6D5E1700F35772 /* SError.swift */,
+				16D9E2122A6DDA7F00F35772 /* Logger.swift */,
 			);
-			path = SirenClientTests;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		1615E8422A66BA3A008C2BE1 /* SirenClientUITests */ = {
+		1615E8592A66C133008C2BE1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1615E8432A66BA3A008C2BE1 /* SirenClientUITests.swift */,
-				1615E8452A66BA3A008C2BE1 /* SirenClientUITestsLaunchTests.swift */,
+				1615E85A2A67488F008C2BE1 /* SearchMatch.swift */,
+				1615E8712A68A6DC008C2BE1 /* SirenCoreResponse.swift */,
 			);
-			path = SirenClientUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1615E86A2A67F3C2008C2BE1 /* SearchMatch */ = {
+			isa = PBXGroup;
+			children = (
+				1615E8622A674BAF008C2BE1 /* SearchMatchView.swift */,
+				1615E8682A67F3AC008C2BE1 /* SearchMatchViewModel.swift */,
+				1615E86F2A68A228008C2BE1 /* LoadingAnimationView.swift */,
+			);
+			path = SearchMatch;
+			sourceTree = "<group>";
+		};
+		1615E86B2A67F3D6008C2BE1 /* AudioCapture */ = {
+			isa = PBXGroup;
+			children = (
+				1615E8642A67EC59008C2BE1 /* AudioCaptureViewModel.swift */,
+			);
+			path = AudioCapture;
+			sourceTree = "<group>";
+		};
+		1615E86E2A687D01008C2BE1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1615E8602A674B39008C2BE1 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1615E87D2A68D0BF008C2BE1 /* Failure */ = {
+			isa = PBXGroup;
+			children = (
+				1615E8792A68D09C008C2BE1 /* FailureView.swift */,
+			);
+			path = Failure;
+			sourceTree = "<group>";
+		};
+		1615E87E2A68D0D5008C2BE1 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				1615E87B2A68D0B0008C2BE1 /* MatchView.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		16D9E2082A6B5F3D00F35772 /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				16D9E20B2A6B5F8900F35772 /* ProgressBarView.swift */,
+			);
+			path = ProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +232,9 @@
 			dependencies = (
 			);
 			name = SirenClient;
+			packageProductDependencies = (
+				168706722A6AF38F00E39E71 /* siren_package */,
+			);
 			productName = SirenClient;
 			productReference = 1615E8252A66BA39008C2BE1 /* SirenClient.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 1615E81C2A66BA39008C2BE1;
+			packageReferences = (
+				168706712A6AF38F00E39E71 /* XCRemoteSwiftPackageReference "siren_package" */,
+			);
 			productRefGroup = 1615E8262A66BA39008C2BE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1615E8302A66BA3A008C2BE1 /* Preview Assets.xcassets in Resources */,
+				16D9E2102A6DCA0900F35772 /* Preview Content in Resources */,
 				1615E82D2A66BA3A008C2BE1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1615E8812A69043D008C2BE1 /* SharedEngine.swift in Sources */,
+				1615E8702A68A228008C2BE1 /* LoadingAnimationView.swift in Sources */,
+				1615E87A2A68D09C008C2BE1 /* FailureView.swift in Sources */,
+				1615E87C2A68D0B0008C2BE1 /* MatchView.swift in Sources */,
+				1615E86D2A687CAA008C2BE1 /* NetworkManager.swift in Sources */,
 				1615E82B2A66BA39008C2BE1 /* ContentView.swift in Sources */,
+				1615E8632A674BAF008C2BE1 /* SearchMatchView.swift in Sources */,
+				16D9E20E2A6D5E1700F35772 /* SError.swift in Sources */,
+				1615E8742A68B212008C2BE1 /* JsonDecoder.swift in Sources */,
+				1615E8612A674B39008C2BE1 /* HomeView.swift in Sources */,
+				1615E85B2A67488F008C2BE1 /* SearchMatch.swift in Sources */,
+				16D9E2072A6B2F5B00F35772 /* RemoteArtwork.swift in Sources */,
+				1615E8692A67F3AC008C2BE1 /* SearchMatchViewModel.swift in Sources */,
+				16D9E2132A6DDA7F00F35772 /* Logger.swift in Sources */,
+				16D9E20C2A6B5F8900F35772 /* ProgressBarView.swift in Sources */,
+				1615E8722A68A6DC008C2BE1 /* SirenCoreResponse.swift in Sources */,
+				1615E8652A67EC59008C2BE1 /* AudioCaptureViewModel.swift in Sources */,
 				1615E8292A66BA39008C2BE1 /* SirenClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1615E83A2A66BA3A008C2BE1 /* SirenClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1615E8442A66BA3A008C2BE1 /* SirenClientUITests.swift in Sources */,
-				1615E8462A66BA3A008C2BE1 /* SirenClientUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -420,11 +529,13 @@
 				DEVELOPMENT_TEAM = Z8462686JF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please Allow Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +543,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.egkudelya.SirenClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +563,13 @@
 				DEVELOPMENT_TEAM = Z8462686JF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please Allow Access";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +577,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.egkudelya.SirenClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -583,6 +702,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		168706712A6AF38F00E39E71 /* XCRemoteSwiftPackageReference "siren_package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/egorkudelya/siren_package.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		168706722A6AF38F00E39E71 /* siren_package */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 168706712A6AF38F00E39E71 /* XCRemoteSwiftPackageReference "siren_package" */;
+			productName = siren_package;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1615E81D2A66BA39008C2BE1 /* Project object */;
 }
