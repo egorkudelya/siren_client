@@ -17,7 +17,7 @@ struct FailureView: View {
                     
                     Text("Nothing was found")
                         .font(.title)
-                        .fontWeight(Font.Weight.medium)
+                        .fontWeight(Font.Weight.regular)
                         .foregroundColor(.white)
                     
                     Spacer()

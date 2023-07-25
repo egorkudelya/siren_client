@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SearchMatchView: View {
     @State private var animatedGradient = false
+    @State private var currentMessage = "Listening..."
     @StateObject private var viewModel = SearchMatchViewModel()
     
     var body: some View {
@@ -9,11 +10,19 @@ struct SearchMatchView: View {
             LinearGradient(colors: [.blue, .cyan, .purple], startPoint: .topLeading , endPoint: .bottomTrailing)
                 .hueRotation (.degrees (animatedGradient ? 45 : 0))
                 .ignoresSafeArea()
+            
             VStack {
-                Text("Looking for a match...")
-                    .font(.title)
-                    .fontWeight(Font.Weight.medium)
+                Text(self.currentMessage)
+                    .font(.system(size: 31).weight(.regular))
                     .foregroundColor(.white)
+                    .id(self.currentMessage)
+                    .transition(.opacity.animation(.easeOut(duration: 0.4)))
+                    .onChange(of: viewModel.isLoading) { value in
+                        guard value else {
+                            return
+                        }
+                        self.currentMessage = "Looking for a match..."
+                    }
             }
             
             if viewModel.isFailure {

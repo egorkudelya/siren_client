@@ -54,7 +54,7 @@ class SearchMatchViewModel : NSObject, ObservableObject {
                 case .success(var match):
                     if match.errors.isEmpty {
                         let adjustedTs = Double(match.timestamp) ?? 0 + (self.requestTimestamp - CFAbsoluteTimeGetCurrent()) * 1e3;
-                        match.timestamp = Double(match.duration) ?? 0 < adjustedTs ? match.duration : String(adjustedTs)
+                        match.timestamp = Double(match.duration) ?? 0 < adjustedTs ? match.duration : String(adjustedTs + 1e4)
                         self.match = match
                         return
                     }

@@ -37,6 +37,7 @@ struct MatchView: View {
                                 totalLength: Float(match.duration)! / 1e3)
                 .frame(width: getRect().width - 100)
                 .padding(.bottom, 17)
+                .padding(.top, 5)
                 
                 Button("Back Home", action: {
                     self.presentationMode.wrappedValue.dismiss()
@@ -59,7 +60,7 @@ extension View {
 
 extension Color {
     static func random() -> Color {
-        return Color(red: Double.random(in: 0.25...0.7), green: Double.random(in: 0.25...0.7), blue: Double.random(in: 0.25...0.5))
+        return Color(red: Double.random(in: 0.15...0.7), green: Double.random(in: 0.15...0.7), blue: Double.random(in: 0.15...0.7))
     }
 }
 
